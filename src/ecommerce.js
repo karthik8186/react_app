@@ -237,7 +237,6 @@ function Free() {
                 <div className="card-body" style={{textAlign:"center"}}>
                   <img src={item.img} value={img} onChange={e => setImg(e.target.value)} className="mb-2" alt="kk" height="200px" width="100%"/><br/>
                   <h6 className="card-title" value={name} onChange={e => setName(e.target.value)}><b>Name: </b>{item.name}</h6><br/>
-                  {/* <p className="card-text" value={content} onChange={e => setContent(e.target.value)}><b>Content: </b>{item.content}</p> */}
                   <h5 value={price} onChange={e => setPrice(e.target.value)}><b>Price: </b>{item.price}</h5>
                   <a href="#" className="btn btn-info" onClick={() => { senddata(item.id)}}>BUY NOW</a>
                 </div>
